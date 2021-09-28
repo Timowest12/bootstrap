@@ -16,7 +16,7 @@ Project to try out bootstrap elements and features
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://timowest12.github.io/bootstrap/)
 
 ## Getting Started
 
