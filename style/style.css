@@ -2,39 +2,48 @@
   --red: rgb(184, 48, 48);
   --darkred: rgb(139, 45, 45);
 }
+
 body {
   padding-top: 100px;
   font-family: "Bungee", sans-serif;
 }
+
 .intro {
   height: 200px;
 }
+
 .colintr {
   background-color: var(--red);
   color: white;
   border-top: 20px solid var(--darkred);
   border-bottom: 20px solid var(--darkred);
 }
+
 .rowtr {
   background-color: brown;
 }
+
 .portfolioimg {
   max-width: 100%;
 }
+
 .formrow {
   background-color: var(--red);
   border-top: 20px solid var(--darkred);
   border-bottom: 20px solid var(--darkred);
   color: white;
 }
+
 form {
   padding: 30px 0;
 }
+
 .languagesbox {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .languagesbox > div {
   padding: 10px;
   background-color: var(--red);
