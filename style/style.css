@@ -25,3 +25,11 @@ body {
 form {
   padding: 30px 0;
 }
+.languagesbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.languagesbox > div {
+  padding: 10px;
+}

@@ -25,10 +25,16 @@
 
         <div id="menuitems" class="collapse">
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link">hello</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">second</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">third</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">fourth</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+            <li class="nav-item">
+              <a href="#intro" class="nav-link">intro</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#form" class="nav-link">contact</a>
+            </li>
           </ul>
         </div>
         <button
@@ -42,7 +48,7 @@
       </nav>
     </header>
     <div class="container-fluid">
-      <div class="row form-group intro">
+      <div id="intro" class="row form-group intro">
         <div
           class="
             col
@@ -59,7 +65,7 @@
           </div>
         </div>
       </div>
-      <div class="row portfoliorow">
+      <div id="portfolio" class="row portfoliorow">
         <div class="col-sm-6 col-md-4 p-3">
           <div class="card">
             <img
@@ -69,7 +75,18 @@
             />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">explanation</p>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <div class="languagesbox">
+                <div class="badge badge-secondary">CSS</div>
+                <div class="badge badge-secondary">HTML</div>
+                <div class="badge badge-secondary">Bootstrap</div>
+                <div class="badge badge-secondary">Ruby</div>
+              </div>
+
+              <br />
               <a href="#" class="btn btn-primary">check out my project</a>
             </div>
           </div>
@@ -147,7 +164,7 @@
       </div>
       <div class="row justify-content-center formrow">
         <div class="col-xs-12 col-md-6">
-          <form action="#">
+          <form id="form" action="#">
             <h3>Ask us a question:</h3>
             <div class="form-group">
               <label for="name">Your full name:</label
