@@ -1,6 +1,8 @@
+body {
+  padding-top: 50px;
+}
 .intro {
   height: 200px;
-  border: 1px solid black;
 }
 .colintr {
   background-color: aquamarine;
