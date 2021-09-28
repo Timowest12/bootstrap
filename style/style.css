@@ -1,15 +1,27 @@
 body {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .intro {
   height: 200px;
 }
 .colintr {
-  background-color: aquamarine;
+  background-color: rgb(194, 69, 69);
+  color: white;
+  border-top: 20px solid rgb(139, 45, 45);
+  border-bottom: 20px solid rgb(139, 45, 45);
 }
 .rowtr {
   background-color: brown;
 }
 .portfolioimg {
   max-width: 100%;
+}
+.formrow {
+  background-color: rgb(194, 69, 69);
+  border-top: 20px solid rgb(139, 45, 45);
+  border-bottom: 20px solid rgb(139, 45, 45);
+  color: white;
+}
+form {
+  padding: 30px 0;
 }
