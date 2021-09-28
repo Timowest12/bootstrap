@@ -1,14 +1,19 @@
+:root {
+  --red: rgb(194, 69, 69);
+  --darkred: rgb(139, 45, 45);
+}
 body {
   padding-top: 100px;
+  font-family: "Bungee", sans-serif;
 }
 .intro {
   height: 200px;
 }
 .colintr {
-  background-color: rgb(194, 69, 69);
+  background-color: var(--red);
   color: white;
-  border-top: 20px solid rgb(139, 45, 45);
-  border-bottom: 20px solid rgb(139, 45, 45);
+  border-top: 20px solid var(--darkred);
+  border-bottom: 20px solid var(--darkred);
 }
 .rowtr {
   background-color: brown;
@@ -17,9 +22,9 @@ body {
   max-width: 100%;
 }
 .formrow {
-  background-color: rgb(194, 69, 69);
-  border-top: 20px solid rgb(139, 45, 45);
-  border-bottom: 20px solid rgb(139, 45, 45);
+  background-color: var(--red);
+  border-top: 20px solid var(--darkred);
+  border-bottom: 20px solid var(--darkred);
   color: white;
 }
 form {
@@ -28,8 +33,10 @@ form {
 .languagesbox {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .languagesbox > div {
   padding: 10px;
+  background-color: var(--red);
+  border-left: 7px solid var(--darkred);
 }
