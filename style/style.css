@@ -8,3 +8,6 @@
 .rowtr {
   background-color: brown;
 }
+.portfolioimg {
+  max-width: 100%;
+}
