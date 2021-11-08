@@ -2,30 +2,29 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> Bootstrap try out
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Project to try out bootstrap elements and features
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://timowest12.github.io/bootstrap/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+If you want to use this portfolio as a template, you can do so; follow the instructions below.
 
+Download it directly by ZIP, open the index file in a text editor, and you can change the content to match your own. If you would like to add your own projects, you can click on the button that says 'code' on the top of this repository, and clone it to your local machine. Or fork this repo and use it on Github. After downloading you can directly open the index.html file in any kind of text editor to make adjustments. Or open in a web browser to view your new site.
 
-To get a local copy up and running follow these simple example steps.
+A pull request would be accepted if you can add nice fueteres, or have any other good idea.
 
 ### Prerequisites
 
@@ -38,8 +37,6 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
-
-
 
 ## Authors
 
